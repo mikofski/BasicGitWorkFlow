@@ -9,7 +9,10 @@ Basic Git Work Flow
 ===================
 1. install a local client [msysgit](http://msysgit.github.io/)
 2. sign up for some remote repository service [Github](https://github.com/)
-3. add your email and name to msysgit from git-gui options
+3. add your email and name to msysgit from git-gui options, from the menu bar select Edit -> Options
+
+![Git-GUI Options](Git-GUI-options.png)
+
 4. create a fresh clean repository - to use git-gui right click on the folder in which you want to create new repo, select "create new repo" then enter new name you want the repo folder to have
 
 ![create new repo](create_new_repo_w-Git-GUI.png)
