@@ -10,20 +10,20 @@ Basic Git Work Flow
 1. Install a local client [msysgit](http://msysgit.github.io/).
 This installs [Git](http://git-scm.com) which comes with GUI tools [Git-GUI](http://git-scm.com/docs/git-gui) and [gitk](http://git-scm.com/docs/git-gui)
 
-![Git-GUI](Git-GUI-splash.png)
+    ![Git-GUI](Git-GUI-splash.png)
 
 2. Sign up for some remote repository service [Github](https://github.com/)
 3. Create a new repository on Github or fork someone else's.
 4. Add your email and name to msysgit from git-gui options, from the menu bar
 select Edit -> Options
 
-![Git-GUI Options](Git-GUI-options.png)
+    ![Git-GUI Options](Git-GUI-options.png)
 
 5. Create a fresh clean repository. To use git-gui right click on the folder in
 which you want to create new repo, select "create new repo" then enter new name
 you want the repo folder to have
 
-![create new repo](create-new-repo-w-Git-GUII.png)
+    ![create new repo](create-new-repo-w-Git-GUII.png)
 
     or use the command line
 
@@ -32,15 +32,18 @@ you want the repo folder to have
 6. Add a remote repository to your local repository. From Git-GUI menu bar
 select Remote -> Add...
 
-![add remote](Git-GUI-add-remote)
+    ![add remote](Git-GUI-add-remote)
 
-Fill in the name you want the remote to be called when you pull from and push
-to it and the location of the remote. The location is its URL, and can be HTTPS
-or SSH. If you have not set up two-factor authorization, then HTTPS will work
-fine. If you have set up two factor authorization then create a personal access
-token and use the token as your username and "x-oauth-basic" as your password.
-To use SSH, please set up keys according the instructions in [Pro-Git](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key) or
-[GitHub](https://help.github.com/articles/generating-ssh-keys).
+    Fill in the name you want the remote to be called when you pull from and
+    push to it and the location of the remote. The location is its URL, and can
+    be HTTPS or SSH. If you have not set up two-factor authorization, then
+    HTTPS will work fine. If you have set up two factor authorization then
+    create a personal access token and use the token as your username and
+    "x-oauth-basic" as your password.
+
+    To use SSH, please set up keys according the instructions in [Pro-Git]
+    (http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key)
+    or [GitHub](https://help.github.com/articles/generating-ssh-keys).
 
 7. Clone an existing one
 
