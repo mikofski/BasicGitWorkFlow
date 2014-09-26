@@ -58,6 +58,8 @@ button to update Git-GUI. The files you've just changed will appear under
 file will move under **Staged Changes (Will Commit)**. You can do this from the
 command line as well.
 
+    ![stage, commit and push](Git-GUI-stage-commit.png)
+
         c:\> git add file1 file2 file3
 
     then commit the changes by entering a message and clicking **Commit**.
