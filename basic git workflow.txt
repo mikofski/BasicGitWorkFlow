@@ -1,66 +1,22 @@
-11:11 AMKat HanHi Mark!
+Resources
+=========
 
+* [ProGit book by scott chacon](http://git-scm.com/book)
+* [Git reference docs](http://git-scm.com/doc)
+* [GitHub help pages](https://help.github.com/)
 
-11:11 AMMark Mikofskiding dong
+Basic Git Work Flow
+===================
+1. install a local client [msysgit](http://msysgit.github.io/)
+2. sign up for some remote repository service [Github](https://github.com/)
+3. 
+3. create a fresh clean repository - to use git-gui right click on the folder in which you want to create new repo, select "create new repo" then enter new name you want the repo folder to have - or use the command line
 
+        c:\>git init my_new_repo
 
-11:11 AMKat HanI'm here and I'm making a GitHub account
+4. clone an existing one
 
-
-11:12 AMMark Mikofskisend me your user name
-
-
-11:12 AMKat HanThere are several plans
-kathyhan4
-
-
-11:12 AMMark Mikofskifree duh
-
-
-11:12 AMKat Hangreat
-
-
-11:12 AMMark Mikofskiwell actuall sunpower pays 
-
-
-11:12 AMKat HanOK, so there is Large, Medium, Small, Micro, Free
-And I believe I can be added to an organization
-Do you want me to call you?
-
-
-11:14 AMMark Mikofskijust sent you an invite to join the SunPower Modules team - you're the only member
-
-
-11:15 AMKat HanIt's a little sad and lonely, but I appreciate the invite 
-
-
-11:15 AMMark Mikofskithere's lots of lit on Git
-but the best resources are the ProGit book by scott chacon http://git-scm.com/book
-the reference docs http://git-scm.com/doc
-
-
-11:16 AMKat HanDo you need to read a whole book to learn how to use version control software?
-
-
-11:17 AMMark Mikofskiit's on the internet, just google the terms or actions you need to figure out, and then just skim enough until your uber awesome brain completes the pattern automatically
-thanks brain
-github help pages are also great https://help.github.com/
-have you used version control before? like subversion, cvs (not the chain store), or like any of the one million other vcs tools?
-
-
-11:19 AMKat HanHahaha, I love your approach, let's hope it works
-I have discussed version control a lot but have not been in charge of implmenting any of the software
-for the solar vehicle project
-
-
-11:20 AMMark MikofskiI'll give you the 10k[ft] primer:
-0. install a local client (msysgit) and sign up for some remote repository service (Github)
-
-
-11:21 AMKat HanYou have a step "0"??
-
-
-11:22 AMMark Mikofski1. create a fresh clean repository (git init my_new_repo) or clone an existing one (git clone https://github.com/SunPower/SimEng)
+        c:\> git clone https://github.com/SunPower/BasicGitWorkFlow
 
 
 11:22 AMKat HanI'm emailing myself these notes that you are messaging me, by the way
