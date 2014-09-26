@@ -23,7 +23,7 @@ select Edit -> Options
 which you want to create new repo, select "create new repo" then enter new name
 you want the repo folder to have
 
-    ![create new repo](create-new-repo-w-Git-GUII.png)
+    ![create new repo](create-new-repo-w-Git-GUI.png)
 
     or use the command line
 
@@ -32,34 +32,40 @@ you want the repo folder to have
 6. Add a remote repository to your local repository. From Git-GUI menu bar
 select Remote -> Add...
 
-    ![add remote](Git-GUI-add-remote)
+    ![add remote](Git-GUI-add-remote.png)
 
     Fill in the name you want the remote to be called when you pull from and
     push to it and the location of the remote. The location is its URL, and can
-    be HTTPS or SSH. If you have not set up two-factor authorization, then
-    HTTPS will work fine. If you have set up two factor authorization then
+    be HTTPS or SSH. If you use HTTPS you will be prompted for your username
+    and password everytime. If you have not set up two-factor authorization,
+    then HTTPS will work fine. If you have set up two factor authorization then
     create a personal access token and use the token as your username and
     "x-oauth-basic" as your password.
 
     To use SSH, please set up keys according the instructions in [Pro-Git]
     (http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key)
-    or [GitHub](https://help.github.com/articles/generating-ssh-keys).
+    or [GitHub](https://help.github.com/articles/generating-ssh-keys). If you
+    set a passphrase you will be prompted to enter it everytime.
 
 7. Clone an existing one
 
         c:\> git clone https://github.com/SunPower/BasicGitWorkFlow
 
 8. Do some work, eg write some docs, make some models, write some code, etc
-9. Save your changes in the repository
+9. Save your changes in the repository. From Git-GUI click the **Rescan**
+button to update Git-GUI. The files you've just changed will appear under
+**Unstaged Changes**. Clicking the icon for each file will _stage_ it, and the
+file will move under **Staged Changes (Will Commit)**. You can do this from the
+command line as well.
 
         c:\> git add file1 file2 file3
 
-    then
+    then commit the changes by entering a message and clicking **Commit**.
 
         c:\> git commit -m "add paragraph explaining basic version control
         workflow"
 
-10. After sever commits push your changes up to the remote
+10. After several commits click **Push** to push your changes up to the remote.
 
         c:\> git push
 
@@ -80,6 +86,6 @@ to the main branch called master
 
         c:\> git checkout master
 
-then merge the changes from your "cool idea" branch
+    then merge the changes from your "cool idea" branch
 
         c:\> git merge myNewIdea
