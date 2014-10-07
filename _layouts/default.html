@@ -1,17 +1,22 @@
 <!doctype html>
 <html>
 <head>
-<style>
-#content {
-  background-color: black;
-  color: green;
+  <style>
+  #content {
+    background-color: black;
+    color: green;
+    font-family: courier;
+  }
+  #content > div {
   margin: 5%;
-  font-family: courier;
-</style>
+  }
+  </style>
 </head>
 <body>
-<div id="content">
-{{ content }}
-</div>
+  <div id="content">
+    <div>
+    {{ content }}
+    </div>
+  </div>
 </body>
 </html>
