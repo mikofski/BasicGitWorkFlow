@@ -53,7 +53,7 @@ select **Remote** -> **Add...**
 
 7. Clone an existing repository.
 
-        $ git clone https://github.com/SunPower/BasicGitWorkFlow
+        $ git clone https://github.com/mikofski/BasicGitWorkFlow
 
 8. Do some work, eg write some docs, make some models, write some code, etc
 9. Save your changes in the repository. From Git-GUI click the **Rescan**
