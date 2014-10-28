@@ -82,9 +82,10 @@ Bash as well.
     ![push credentials](Git-GUI-push3.png)
 
 11. To see the history of your repository from Git-GUI menu bar select
-**Repository** -> **Visualize All Branch History**.
+**Repository** -> **Visualize All Branch History**
 
     ![gitk](gitk.png)
+
 
 12. Later when you're at a different laptop and want to make a quick change or
 if you work with someone else, pull the changes from your other machine or your
