@@ -77,23 +77,23 @@ Bash as well.
 
     ![push credentials](Git-GUI-push3.png)
 
-101. To see the history of your repository from Git-GUI menu bar select
+11. To see the history of your repository from Git-GUI menu bar select
 **Repository** -> **Visualize All Branch History**.
 
     ![gitk](gitk.png)
 
-11. Later when you're at a different laptop and want to make a quick change or
+12. Later when you're at a different laptop and want to make a quick change or
 if you work with someone else, pull the changes from your other machine or your
 coworker.
 
         $ git pull
 
-12. You had a totally awesome idea, but you don't want to mess up your stuff
+13. You had a totally awesome idea, but you don't want to mess up your stuff
 that is **finally** working so you create a branch
 
         $ git checkout -b myNewIdea
 
-13. After working on your cool idea, you decide to bring it back into the fold,
+14. After working on your cool idea, you decide to bring it back into the fold,
 you've been making changes and commiting them in your branch, so first return
 to the main branch called master
 
@@ -103,7 +103,7 @@ to the main branch called master
 
         $ git merge myNewIdea
 
-14. Download a diff/merge tool so that you can view diffs and resolve merge
+15. Download a diff/merge tool so that you can view diffs and resolve merge
 conflicts more easily.
 
     * [WinMerge](http://winmerge.org/)
