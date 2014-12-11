@@ -12,7 +12,8 @@ Resources
 Basic Git Work Flow
 ===================
 1. Install a local client [msysgit](http://msysgit.github.io/).
-This installs [Git](http://git-scm.com) which comes with GUI tools [Git-GUI](http://git-scm.com/docs/git-gui) and [gitk](http://git-scm.com/docs/git-gui).
+This installs [Git](http://git-scm.com) which comes with GUI tools
+[Git-GUI](http://git-scm.com/docs/git-gui) and [gitk](http://git-scm.com/docs/git-gui).
 
     ![Git-GUI](Git-GUI-splash.png)
 
@@ -46,8 +47,8 @@ select **Remote** -> **Add...**
     create a personal access token and use the token as your username and
     "x-oauth-basic" as your password.
 
-    To use SSH, please set up keys according the instructions in [Pro-Git]
-    (http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key)
+    To use SSH, please set up keys according the instructions in
+    [Pro-Git](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key)
     or [GitHub](https://help.github.com/articles/generating-ssh-keys). If you
     set a passphrase you will be prompted to enter it everytime.
 
