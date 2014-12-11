@@ -116,7 +116,7 @@ conflicts more easily.
     * [tkdiff](http://sourceforge.net/projects/tkdiff/)
     * [p4merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)
 
-    You may need to configure from Git Bash using to use with [git-difftool]
-    (http://git-scm.com/docs/git-difftool) or [git-mergetool]
-    (http://git-scm.com/docs/git-mergetool). WinMerge will open conflict files
+    You may need to configure from Git Bash using to use with
+    [git-difftool](http://git-scm.com/docs/git-difftool) or
+    [git-mergetool](http://git-scm.com/docs/git-mergetool). WinMerge will open conflict files
     without any configuration.
