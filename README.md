@@ -108,7 +108,7 @@ conflicts more easily.
 
     * [WinMerge](http://winmerge.org/)
     * [diffuse](http://diffuse.sourceforge.net/)
-    * [Meld-Installer](http://sourceforge.net/projects/meld-installer/) 
+    * [Meld](http://meldmerge.org/)
     * [tkdiff](http://sourceforge.net/projects/tkdiff/)
     * [p4merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)
 
